@@ -1,0 +1,589 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "# Given command will be  created only once and apply to all the other scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3323183000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-22T18:32:49.284Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6946182000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Login under different credentials as user10",
+        "description": "",
+        "id": "login;login-under-different-credentials-as-\u003cusername\u003e;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 787313000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "user enters \"user10\" and \"UserUser123\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 409000,
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "user should be able to see Dashboard page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "# Given command will be  created only once and apply to all the other scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1435679000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-22T18:33:00.387Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2439243000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Login under different credentials as user15",
+        "description": "",
+        "id": "login;login-under-different-credentials-as-\u003cusername\u003e;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 137246000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "user enters \"user15\" and \"UserUser123\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159000,
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "user should be able to see Dashboard page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "# Given command will be  created only once and apply to all the other scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1342402000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-22T18:33:04.420Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2154742000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Login under different credentials as user22",
+        "description": "",
+        "id": "login;login-under-different-credentials-as-\u003cusername\u003e;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 90449000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "user enters \"user22\" and \"UserUser123\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162000,
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "user should be able to see Dashboard page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "# Given command will be  created only once and apply to all the other scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1262972000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-22T18:33:08.028Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2352748000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Login under different credentials as user110",
+        "description": "",
+        "id": "login;login-under-different-credentials-as-\u003cusername\u003e;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 200348000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "user enters \"user110\" and \"UserUser123\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162000,
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "user should be able to see Dashboard page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "# Given command will be  created only once and apply to all the other scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1166441000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-22T18:33:11.861Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1907517000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Login under different credentials as storemanager85",
+        "description": "",
+        "id": "login;login-under-different-credentials-as-\u003cusername\u003e;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 154576000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "user enters \"storemanager85\" and \"UserUser123\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137000,
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "user should be able to see Dashboard page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "# Given command will be  created only once and apply to all the other scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1629185000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-22T18:33:15.108Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1935352000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "Login under different credentials as storemanager120",
+        "description": "",
+        "id": "login;login-under-different-credentials-as-\u003cusername\u003e;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 143303000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "user enters \"storemanager120\" and \"UserUser123\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153000,
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "user should be able to see Dashboard page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "# Given command will be  created only once and apply to all the other scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1357029000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-22T18:33:18.836Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2285635000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Login under different credentials as storemanager110",
+        "description": "",
+        "id": "login;login-under-different-credentials-as-\u003cusername\u003e;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 87824000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "user enters \"storemanager110\" and \"UserUser123\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73000,
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "user should be able to see Dashboard page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As user I want to be able to login under different roles",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

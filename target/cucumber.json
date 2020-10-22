@@ -1,0 +1,749 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-22T18:00:21.048Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6370836000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "1. Add some cars",
+        "description": "",
+        "id": "as-a-user--i-want-to-be-able-to-create-new-cars;1.-add-some-cars",
+        "after": [
+          {
+            "result": {
+              "duration": 224000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1631989000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2309565000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs in as a \"store manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store manager\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_logs_in_as_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Yagmurs-MBP.attlocal.net\u0027, ip: \u00272600:1700:d670:3490:0:0:0:40%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002713.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat com.vytrack.pages.BasePage.navigateTo(BasePage.java:28)\n\tat com.vytrack.step_definitions.CommonStepDefinitions.user_navigates_to_and(CommonStepDefinitions.java:11)\n\tat ✽.user navigates to \"Fleet\" and \"Vehicles\"(file:///Users/yagmur/IdeaProjects/Summer2020CucumberTestAutomationProject/src/test/resources/features/fleet/CreateCar.feature:7)\n",
+              "duration": 20565909000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user navigates to \"Fleet\" and \"Vehicles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fleet\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Vehicles\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.vytrack.step_definitions.CommonStepDefinitions.user_navigates_to_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 246000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks on create car button",
+            "match": {
+              "location": "com.vytrack.step_definitions.CreateCarStepDefinitions.user_clicks_on_create_car_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user adds new vehicle information",
+            "match": {
+              "location": "com.vytrack.step_definitions.CreateCarStepDefinitions.user_adds_new_vehicle_information(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "License Plate",
+                  "SDET"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@add_car"
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I want to be able to create new cars",
+    "description": "",
+    "id": "as-a-user--i-want-to-be-able-to-create-new-cars",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/fleet/CreateCar.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-22T18:00:21.041Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6451166000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "1. Add some cars",
+        "description": "",
+        "id": "as-a-user--i-want-to-be-able-to-create-new-cars;1.-add-some-cars",
+        "after": [
+          {
+            "result": {
+              "duration": 20075967000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2990464000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d86.0.4240.80)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Yagmurs-MBP.attlocal.net\u0027, ip: \u00272600:1700:d670:3490:0:0:0:40%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/yk/7b9mh4292c5...}, goog:chromeOptions: {debuggerAddress: localhost:50741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 3e6c09ce0fed6b34b4e4695de280d0e5\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy19.sendKeys(Unknown Source)\n\tat com.vytrack.pages.LoginPage.login(LoginPage.java:53)\n\tat com.vytrack.step_definitions.LoginStepDefinitions.user_logs_in_as_a(LoginStepDefinitions.java:43)\n\tat ✽.user logs in as a \"store manager\"(file:///Users/yagmur/IdeaProjects/Summer2020CucumberTestAutomationProject/src/test/resources/features/fleet/CreateCar2.feature:6)\n",
+              "duration": 972985000,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "user logs in as a \"store manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store manager\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_logs_in_as_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2513000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user navigates to \"Fleet\" and \"Vehicles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fleet\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Vehicles\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.vytrack.step_definitions.CommonStepDefinitions.user_navigates_to_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1829000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks on create car button",
+            "match": {
+              "location": "com.vytrack.step_definitions.CreateCarStepDefinitions.user_clicks_on_create_car_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 261000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user adds new vehicle information",
+            "match": {
+              "location": "com.vytrack.step_definitions.CreateCarStepDefinitions.user_adds_new_vehicle_information(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "License Plate",
+                  "SDET"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@add_car"
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I want to be able to create new cars",
+    "description": "",
+    "id": "as-a-user--i-want-to-be-able-to-create-new-cars",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/fleet/CreateCar2.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "# Given command will be  created only once and apply to all the other scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2412122000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-22T18:00:21.029Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6474308000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Login as a sales manager",
+        "description": "",
+        "id": "login;login-as-a-sales-manager",
+        "after": [
+          {
+            "result": {
+              "duration": 20079084000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d86.0.4240.80)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Yagmurs-MBP.attlocal.net\u0027, ip: \u00272600:1700:d670:3490:0:0:0:40%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/yk/7b9mh4292c5...}, goog:chromeOptions: {debuggerAddress: localhost:50741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 3e6c09ce0fed6b34b4e4695de280d0e5\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy19.sendKeys(Unknown Source)\n\tat com.vytrack.pages.LoginPage.login(LoginPage.java:40)\n\tat com.vytrack.step_definitions.LoginStepDefinitions.user_logs_in(LoginStepDefinitions.java:25)\n\tat ✽.user logs in(file:///Users/yagmur/IdeaProjects/Summer2020CucumberTestAutomationProject/src/test/resources/features/login.feature:10)\n",
+              "duration": 1538462000,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "user logs in",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_logs_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 331000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user should see dashboard page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_should_see_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "# Given command will be  created only once and apply to all the other scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1242466000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-22T18:00:51.572Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1629671000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login as a driver",
+        "description": "",
+        "id": "login;login-as-a-driver",
+        "after": [
+          {
+            "result": {
+              "duration": 283000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6383399000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user logs in",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_logs_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 276271000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should see dashboard page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_should_see_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "# Given command will be  created only once and apply to all the other scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 935117000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-22T18:01:01.115Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1508211000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login as a store manager",
+        "description": "",
+        "id": "login;login-as-a-store-manager",
+        "after": [
+          {
+            "result": {
+              "duration": 207000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6259446000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user logs in",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_logs_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 267999000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should see dashboard page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_should_see_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "# Given command will be  created only once and apply to all the other scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1061648000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-22T18:01:10.098Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1481523000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Parametrized login",
+        "description": "",
+        "id": "login;parametrized-login",
+        "after": [
+          {
+            "result": {
+              "duration": 382000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3391923000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user logs in as a \"store manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store manager\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_logs_in_as_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 238401000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user should see dashboard page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_should_see_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@parametrized_test"
+          },
+          {
+            "name": "@BUG_BugID"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "# Given command will be  created only once and apply to all the other scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1248053000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-22T18:01:16.289Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1647162000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Invalid password",
+        "description": "",
+        "id": "login;invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 117202000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 584267000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 990339000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user logs in with \"storemanager85\" username and \"wrong\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"storemanager85\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"wrong\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_logs_in_with_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5026891000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user verifies that \"Invalid user name or password.\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid user name or password.\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_verifies_that_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@negative_login"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As user I want to be able to login under different roles",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

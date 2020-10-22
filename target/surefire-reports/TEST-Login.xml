@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Login" time="33.68" tests="13" errors="13" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="webdriver.chrome.driver" value="/Users/yagmur/.cache/selenium/chromedriver/mac64/86.0.4240.22/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/yagmur/IdeaProjects/Summer2020CucumberTestAutomationProject/target/test-classes:/Users/yagmur/IdeaProjects/Summer2020CucumberTestAutomationProject/target/classes:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/yagmur/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/yagmur/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/yagmur/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/yagmur/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/yagmur/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/yagmur/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/yagmur/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/yagmur/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/yagmur/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/yagmur/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/yagmur/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.2/webdrivermanager-4.2.2.jar:/Users/yagmur/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/yagmur/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/yagmur/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/yagmur/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/yagmur/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/yagmur/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/yagmur/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/yagmur/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/yagmur/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/yagmur/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/yagmur/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/yagmur/.m2/repository/io/cucumber/cucumber-java/6.8.1/cucumber-java-6.8.1.jar:/Users/yagmur/.m2/repository/io/cucumber/cucumber-core/6.8.1/cucumber-core-6.8.1.jar:/Users/yagmur/.m2/repository/io/cucumber/cucumber-gherkin/6.8.1/cucumber-gherkin-6.8.1.jar:/Users/yagmur/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.8.1/cucumber-gherkin-messages-6.8.1.jar:/Users/yagmur/.m2/repository/io/cucumber/messages/13.1.0/messages-13.1.0.jar:/Users/yagmur/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/yagmur/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/yagmur/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/yagmur/.m2/repository/io/cucumber/cucumber-plugin/6.8.1/cucumber-plugin-6.8.1.jar:/Users/yagmur/.m2/repository/io/cucumber/docstring/6.8.1/docstring-6.8.1.jar:/Users/yagmur/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/yagmur/.m2/repository/io/cucumber/create-meta/2.0.2/create-meta-2.0.2.jar:/Users/yagmur/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/yagmur/.m2/repository/io/cucumber/cucumber-junit/6.8.1/cucumber-junit-6.8.1.jar:/Users/yagmur/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/yagmur/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/yagmur/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/yagmur/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/yagmur/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/yagmur/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Indiana/Indianapolis"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/yagmur/IdeaProjects/Summer2020CucumberTestAutomationProject/target/surefire/surefirebooter2228878689059572249.jar /Users/yagmur/IdeaProjects/Summer2020CucumberTestAutomationProject/target/surefire 2020-10-22T14-32-45_387-jvmRun1 surefire9936742711525998903tmp surefire_016018527523625657152tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/yagmur/IdeaProjects/Summer2020CucumberTestAutomationProject/target/test-classes:/Users/yagmur/IdeaProjects/Summer2020CucumberTestAutomationProject/target/classes:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/yagmur/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/yagmur/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/yagmur/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/yagmur/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/yagmur/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/yagmur/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/yagmur/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/yagmur/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/yagmur/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/yagmur/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/yagmur/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/yagmur/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.2/webdrivermanager-4.2.2.jar:/Users/yagmur/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/yagmur/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/yagmur/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/yagmur/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/yagmur/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/yagmur/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/yagmur/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/yagmur/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/yagmur/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/yagmur/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/yagmur/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/yagmur/.m2/repository/io/cucumber/cucumber-java/6.8.1/cucumber-java-6.8.1.jar:/Users/yagmur/.m2/repository/io/cucumber/cucumber-core/6.8.1/cucumber-core-6.8.1.jar:/Users/yagmur/.m2/repository/io/cucumber/cucumber-gherkin/6.8.1/cucumber-gherkin-6.8.1.jar:/Users/yagmur/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.8.1/cucumber-gherkin-messages-6.8.1.jar:/Users/yagmur/.m2/repository/io/cucumber/messages/13.1.0/messages-13.1.0.jar:/Users/yagmur/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/yagmur/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/yagmur/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/yagmur/.m2/repository/io/cucumber/cucumber-plugin/6.8.1/cucumber-plugin-6.8.1.jar:/Users/yagmur/.m2/repository/io/cucumber/docstring/6.8.1/docstring-6.8.1.jar:/Users/yagmur/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/yagmur/.m2/repository/io/cucumber/create-meta/2.0.2/create-meta-2.0.2.jar:/Users/yagmur/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/yagmur/.m2/repository/io/cucumber/cucumber-junit/6.8.1/cucumber-junit-6.8.1.jar:/Users/yagmur/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/yagmur/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/yagmur/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/yagmur/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/yagmur/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/yagmur/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/yagmur"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/yagmur/IdeaProjects/Summer2020CucumberTestAutomationProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/yagmur/IdeaProjects/Summer2020CucumberTestAutomationProject/target/surefire/surefirebooter2228878689059572249.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="user.name" value="yagmur"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.6"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/yagmur/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/yk/7b9mh4292c5ck6ttvmcsl3bh0000gn/T/"/>
+    <property name="idea.version" value="2020.2.1"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="user.dir" value="/Users/yagmur/IdeaProjects/Summer2020CucumberTestAutomationProject"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/yagmur/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="Login under different credentials as user10" classname="Login" time="11.481">
+    <error message="The step &quot;user enters &quot;user10&quot; and &quot;UserUser123&quot;&quot; is undefined. You can implement it using the snippet(s) below:&#10;&#10;@When(&quot;user enters {string} and {string}&quot;)&#10;public void user_enters_and(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;&#10;&#10;Some other steps were also undefined:&#10;&#10;@Then(&quot;user should be able to see Dashboard page title&quot;)&#10;public void user_should_be_able_to_see_dashboard_page_title() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step "user enters "user10" and "UserUser123"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user enters {string} and {string}")
+public void user_enters_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("user should be able to see Dashboard page title")
+public void user_should_be_able_to_see_dashboard_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[&amp#27;[32m&amp#27;[1m┌──────────────────────────────────────────────────────────────────────────┐&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m View your Cucumber Report at:                                            &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m &amp#27;[1m&amp#27;[36m&amp#27;[4mhttps://reports.cucumber.io/reports/5236350a-712b-4d12-a7e2-f815d72b13e1&amp#27;[0m &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                          &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m &amp#27;[1mThis report will self-destruct in 24h.&amp#27;[0m                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Keep reports forever: &amp#27;[4m&amp#27;[1m&amp#27;[36mhttps://reports.cucumber.io/profile&amp#27;[0m                &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m└──────────────────────────────────────────────────────────────────────────┘&amp#27;[0m
+&amp#27;[32m&amp#27;[1m┌──────────────────────────────────────────────────────────────────────────┐&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m View your Cucumber Report at:                                            &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m &amp#27;[1m&amp#27;[36m&amp#27;[4mhttps://reports.cucumber.io/reports/ead601d7-afbd-4604-b17d-94261346ee27&amp#27;[0m &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                          &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m &amp#27;[1mThis report will self-destruct in 24h.&amp#27;[0m                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Keep reports forever: &amp#27;[4m&amp#27;[1m&amp#27;[36mhttps://reports.cucumber.io/profile&amp#27;[0m                &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m└──────────────────────────────────────────────────────────────────────────┘&amp#27;[0m
+&amp#27;[32m&amp#27;[1m┌──────────────────────────────────────────────────────────────────────────┐&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m View your Cucumber Report at:                                            &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m &amp#27;[1m&amp#27;[36m&amp#27;[4mhttps://reports.cucumber.io/reports/7def9d6d-3cc8-48f9-bf74-498eca7bcd3c&amp#27;[0m &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                          &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m &amp#27;[1mThis report will self-destruct in 24h.&amp#27;[0m                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Keep reports forever: &amp#27;[4m&amp#27;[1m&amp#27;[36mhttps://reports.cucumber.io/profile&amp#27;[0m                &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m└──────────────────────────────────────────────────────────────────────────┘&amp#27;[0m
+&amp#27;[32m&amp#27;[1m┌──────────────────────────────────────────────────────────────────────────┐&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m View your Cucumber Report at:                                            &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m &amp#27;[1m&amp#27;[36m&amp#27;[4mhttps://reports.cucumber.io/reports/fef0c605-010d-4e26-b6b1-e4350629b086&amp#27;[0m &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                          &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m &amp#27;[1mThis report will self-destruct in 24h.&amp#27;[0m                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Keep reports forever: &amp#27;[4m&amp#27;[1m&amp#27;[36mhttps://reports.cucumber.io/profile&amp#27;[0m                &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m└──────────────────────────────────────────────────────────────────────────┘&amp#27;[0m
+[@login, @scenario_outline]
+Empty hook before
+Empty hook after
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 31071
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 22, 2020 2:32:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login as a sales manager" classname="Login" time="11.484">
+    <error message="invalid session id&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Yagmurs-MBP.attlocal.net&apos;, ip: &apos;2600:1700:d670:3490:0:0:0:40%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/yk/7b9mh4292c5...}, goog:chromeOptions: {debuggerAddress: localhost:51032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 492827efcc03d7e99c850c1ffe941d6d" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yagmurs-MBP.attlocal.net', ip: '2600:1700:d670:3490:0:0:0:40%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/yk/7b9mh4292c5...}, goog:chromeOptions: {debuggerAddress: localhost:51032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 492827efcc03d7e99c850c1ffe941d6d
+]]></error>
+    <system-out><![CDATA[[@login, @scenario_1]
+Empty hook before
+Special empty hook before
+Special empty hook after
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 47682
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 22, 2020 2:32:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login as a sales manager" classname="Login" time="0">
+    <error message="The driver server has unexpectedly died!&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Yagmurs-MBP.attlocal.net&apos;, ip: &apos;2600:1700:d670:3490:0:0:0:40%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: Driver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+The driver server has unexpectedly died!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yagmurs-MBP.attlocal.net', ip: '2600:1700:d670:3490:0:0:0:40%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '13.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:22339
+Caused by: java.net.ConnectException: Connection refused
+]]></error>
+  </testcase>
+  <testcase name="Login as a store manager" classname="Login" time="11.48">
+    <error message="invalid session id&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Yagmurs-MBP.attlocal.net&apos;, ip: &apos;2600:1700:d670:3490:0:0:0:40%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/yk/7b9mh4292c5...}, goog:chromeOptions: {debuggerAddress: localhost:51032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 492827efcc03d7e99c850c1ffe941d6d" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yagmurs-MBP.attlocal.net', ip: '2600:1700:d670:3490:0:0:0:40%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/yk/7b9mh4292c5...}, goog:chromeOptions: {debuggerAddress: localhost:51032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 492827efcc03d7e99c850c1ffe941d6d
+]]></error>
+    <system-out><![CDATA[[@login, @scenario_3]
+Empty hook before
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 16767
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 22, 2020 2:32:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login as a store manager" classname="Login" time="0">
+    <error message="The driver server has unexpectedly died!&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Yagmurs-MBP.attlocal.net&apos;, ip: &apos;2600:1700:d670:3490:0:0:0:40%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: Driver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+The driver server has unexpectedly died!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yagmurs-MBP.attlocal.net', ip: '2600:1700:d670:3490:0:0:0:40%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '13.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:22339
+Caused by: java.net.ConnectException: Connection refused
+]]></error>
+  </testcase>
+  <testcase name="Login as a driver" classname="Login" time="11.478">
+    <error message="invalid session id&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Yagmurs-MBP.attlocal.net&apos;, ip: &apos;2600:1700:d670:3490:0:0:0:40%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/yk/7b9mh4292c5...}, goog:chromeOptions: {debuggerAddress: localhost:51032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 492827efcc03d7e99c850c1ffe941d6d&#10;*** Element info: {Using=id, value=prependedInput}" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yagmurs-MBP.attlocal.net', ip: '2600:1700:d670:3490:0:0:0:40%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/yk/7b9mh4292c5...}, goog:chromeOptions: {debuggerAddress: localhost:51032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 492827efcc03d7e99c850c1ffe941d6d
+*** Element info: {Using=id, value=prependedInput}
+]]></error>
+    <system-out><![CDATA[[@login, @scenario_2]
+Empty hook before
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 22339
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 22, 2020 2:32:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login as a driver" classname="Login" time="0">
+    <error message="The driver server has unexpectedly died!&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Yagmurs-MBP.attlocal.net&apos;, ip: &apos;2600:1700:d670:3490:0:0:0:40%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: Driver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+The driver server has unexpectedly died!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yagmurs-MBP.attlocal.net', ip: '2600:1700:d670:3490:0:0:0:40%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '13.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:22339
+Caused by: java.net.ConnectException: Connection refused
+]]></error>
+  </testcase>
+  <testcase name="Login under different credentials as user15" classname="Login" time="4.03">
+    <error message="The step &quot;user enters &quot;user15&quot; and &quot;UserUser123&quot;&quot; is undefined. You can implement it using the snippet(s) below:&#10;&#10;@When(&quot;user enters {string} and {string}&quot;)&#10;public void user_enters_and(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;&#10;&#10;Some other steps were also undefined:&#10;&#10;@Then(&quot;user should be able to see Dashboard page title&quot;)&#10;public void user_should_be_able_to_see_dashboard_page_title() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step "user enters "user15" and "UserUser123"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user enters {string} and {string}")
+public void user_enters_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("user should be able to see Dashboard page title")
+public void user_should_be_able_to_see_dashboard_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[[@login, @scenario_outline]
+Empty hook before
+Empty hook after
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 44876
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 22, 2020 2:33:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login under different credentials as user22" classname="Login" time="3.608">
+    <error message="The step &quot;user enters &quot;user22&quot; and &quot;UserUser123&quot;&quot; is undefined. You can implement it using the snippet(s) below:&#10;&#10;@When(&quot;user enters {string} and {string}&quot;)&#10;public void user_enters_and(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;&#10;&#10;Some other steps were also undefined:&#10;&#10;@Then(&quot;user should be able to see Dashboard page title&quot;)&#10;public void user_should_be_able_to_see_dashboard_page_title() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step "user enters "user22" and "UserUser123"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user enters {string} and {string}")
+public void user_enters_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("user should be able to see Dashboard page title")
+public void user_should_be_able_to_see_dashboard_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[[@login, @scenario_outline]
+Empty hook before
+Empty hook after
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 46272
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 22, 2020 2:33:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login under different credentials as user110" classname="Login" time="3.837">
+    <error message="The step &quot;user enters &quot;user110&quot; and &quot;UserUser123&quot;&quot; is undefined. You can implement it using the snippet(s) below:&#10;&#10;@When(&quot;user enters {string} and {string}&quot;)&#10;public void user_enters_and(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;&#10;&#10;Some other steps were also undefined:&#10;&#10;@Then(&quot;user should be able to see Dashboard page title&quot;)&#10;public void user_should_be_able_to_see_dashboard_page_title() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step "user enters "user110" and "UserUser123"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user enters {string} and {string}")
+public void user_enters_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("user should be able to see Dashboard page title")
+public void user_should_be_able_to_see_dashboard_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[[@login, @scenario_outline]
+Empty hook before
+Empty hook after
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 33678
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 22, 2020 2:33:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login under different credentials as storemanager85" classname="Login" time="3.245">
+    <error message="The step &quot;user enters &quot;storemanager85&quot; and &quot;UserUser123&quot;&quot; is undefined. You can implement it using the snippet(s) below:&#10;&#10;@When(&quot;user enters {string} and {string}&quot;)&#10;public void user_enters_and(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;&#10;&#10;Some other steps were also undefined:&#10;&#10;@Then(&quot;user should be able to see Dashboard page title&quot;)&#10;public void user_should_be_able_to_see_dashboard_page_title() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step "user enters "storemanager85" and "UserUser123"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user enters {string} and {string}")
+public void user_enters_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("user should be able to see Dashboard page title")
+public void user_should_be_able_to_see_dashboard_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[[@login, @scenario_outline]
+Empty hook before
+Empty hook after
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 20459
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 22, 2020 2:33:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login under different credentials as storemanager120" classname="Login" time="3.726">
+    <error message="The step &quot;user enters &quot;storemanager120&quot; and &quot;UserUser123&quot;&quot; is undefined. You can implement it using the snippet(s) below:&#10;&#10;@When(&quot;user enters {string} and {string}&quot;)&#10;public void user_enters_and(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;&#10;&#10;Some other steps were also undefined:&#10;&#10;@Then(&quot;user should be able to see Dashboard page title&quot;)&#10;public void user_should_be_able_to_see_dashboard_page_title() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step "user enters "storemanager120" and "UserUser123"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user enters {string} and {string}")
+public void user_enters_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("user should be able to see Dashboard page title")
+public void user_should_be_able_to_see_dashboard_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[[@login, @scenario_outline]
+Empty hook before
+Empty hook after
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 34224
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 22, 2020 2:33:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login under different credentials as storemanager110" classname="Login" time="3.749">
+    <error message="The step &quot;user enters &quot;storemanager110&quot; and &quot;UserUser123&quot;&quot; is undefined. You can implement it using the snippet(s) below:&#10;&#10;@When(&quot;user enters {string} and {string}&quot;)&#10;public void user_enters_and(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;&#10;&#10;Some other steps were also undefined:&#10;&#10;@Then(&quot;user should be able to see Dashboard page title&quot;)&#10;public void user_should_be_able_to_see_dashboard_page_title() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step "user enters "storemanager110" and "UserUser123"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user enters {string} and {string}")
+public void user_enters_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("user should be able to see Dashboard page title")
+public void user_should_be_able_to_see_dashboard_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[[@login, @scenario_outline]
+Empty hook before
+Empty hook after
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 29019
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 22, 2020 2:33:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

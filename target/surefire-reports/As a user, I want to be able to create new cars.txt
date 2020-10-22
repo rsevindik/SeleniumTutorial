@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: As a user, I want to be able to create new cars
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 29.372 s <<< FAILURE! - in As a user, I want to be able to create new cars
+As a user, I want to be able to create new cars.1. Add some cars  Time elapsed: 29.372 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yagmurs-MBP.attlocal.net', ip: '2600:1700:d670:3490:0:0:0:40%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '13.0.1'
+Driver info: driver.version: RemoteWebDriver
+

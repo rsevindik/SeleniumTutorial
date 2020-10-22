@@ -1,0 +1,199 @@
+-------------------------------------------------------------------------------
+Test set: Login
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 13, Skipped: 0, Time elapsed: 33.68 s <<< FAILURE! - in Login
+Login.Login under different credentials as user10  Time elapsed: 11.481 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "user enters "user10" and "UserUser123"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user enters {string} and {string}")
+public void user_enters_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("user should be able to see Dashboard page title")
+public void user_should_be_able_to_see_dashboard_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login.Login as a sales manager  Time elapsed: 11.484 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yagmurs-MBP.attlocal.net', ip: '2600:1700:d670:3490:0:0:0:40%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/yk/7b9mh4292c5...}, goog:chromeOptions: {debuggerAddress: localhost:51032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 492827efcc03d7e99c850c1ffe941d6d
+
+Login.Login as a store manager  Time elapsed: 11.48 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yagmurs-MBP.attlocal.net', ip: '2600:1700:d670:3490:0:0:0:40%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/yk/7b9mh4292c5...}, goog:chromeOptions: {debuggerAddress: localhost:51032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 492827efcc03d7e99c850c1ffe941d6d
+
+Login.Login as a driver  Time elapsed: 11.478 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yagmurs-MBP.attlocal.net', ip: '2600:1700:d670:3490:0:0:0:40%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/yk/7b9mh4292c5...}, goog:chromeOptions: {debuggerAddress: localhost:51032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 492827efcc03d7e99c850c1ffe941d6d
+*** Element info: {Using=id, value=prependedInput}
+
+Login.Login as a driver  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+The driver server has unexpectedly died!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yagmurs-MBP.attlocal.net', ip: '2600:1700:d670:3490:0:0:0:40%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '13.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:22339
+Caused by: java.net.ConnectException: Connection refused
+
+Login.Login as a store manager  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+The driver server has unexpectedly died!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yagmurs-MBP.attlocal.net', ip: '2600:1700:d670:3490:0:0:0:40%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '13.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:22339
+Caused by: java.net.ConnectException: Connection refused
+
+Login.Login under different credentials as user15  Time elapsed: 4.03 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "user enters "user15" and "UserUser123"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user enters {string} and {string}")
+public void user_enters_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("user should be able to see Dashboard page title")
+public void user_should_be_able_to_see_dashboard_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login.Login as a sales manager  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+The driver server has unexpectedly died!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yagmurs-MBP.attlocal.net', ip: '2600:1700:d670:3490:0:0:0:40%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '13.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:22339
+Caused by: java.net.ConnectException: Connection refused
+
+Login.Login under different credentials as user22  Time elapsed: 3.608 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "user enters "user22" and "UserUser123"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user enters {string} and {string}")
+public void user_enters_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("user should be able to see Dashboard page title")
+public void user_should_be_able_to_see_dashboard_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login.Login under different credentials as user110  Time elapsed: 3.837 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "user enters "user110" and "UserUser123"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user enters {string} and {string}")
+public void user_enters_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("user should be able to see Dashboard page title")
+public void user_should_be_able_to_see_dashboard_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login.Login under different credentials as storemanager85  Time elapsed: 3.245 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "user enters "storemanager85" and "UserUser123"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user enters {string} and {string}")
+public void user_enters_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("user should be able to see Dashboard page title")
+public void user_should_be_able_to_see_dashboard_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login.Login under different credentials as storemanager120  Time elapsed: 3.726 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "user enters "storemanager120" and "UserUser123"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user enters {string} and {string}")
+public void user_enters_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("user should be able to see Dashboard page title")
+public void user_should_be_able_to_see_dashboard_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login.Login under different credentials as storemanager110  Time elapsed: 3.749 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "user enters "storemanager110" and "UserUser123"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user enters {string} and {string}")
+public void user_enters_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("user should be able to see Dashboard page title")
+public void user_should_be_able_to_see_dashboard_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

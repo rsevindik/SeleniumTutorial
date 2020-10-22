@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.vytrack.runners.CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 93.087 s <<< FAILURE! - in com.vytrack.runners.CucumberRunner
+As a user, I want to be able to create new cars.1. Add some cars  Time elapsed: 40.65 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on MAC (e4747609ce250fe22377afb43bda8f07)] -> xpath: //*[contains(text(),'Vehicles') and @class='title title-level-2']] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yagmurs-MBP.attlocal.net', ip: '2600:1700:d670:3490:0:0:0:40%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/yk/7b9mh4292c5...}, goog:chromeOptions: {debuggerAddress: localhost:53723}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e4747609ce250fe22377afb43bda8f07
+
